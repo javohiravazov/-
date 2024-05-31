@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-header {
+  background-color: #ffffff;
+  height: 148px;
+}
+.header-part {
+  display: flex;
+}
+.header-img-first {
+  padding: 20px;
+  padding-right: 45px;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.header-img-second {
+  padding: 30px;
+  padding-right: 45px;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.header-img-third {
+  padding: 35px;
+  padding-right: 45px;
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.header-img-four {
+  padding: 28px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.image-btn {
+  display: none;
+}
+.image-top {
+  display: none;
+}
+.header-menu {
+  background-color: #e81212;
+  height: 48px;
+  display: flex;
+}
+.icon-mune {
+  padding-top: 13px;
+  padding-left: 25px;
+  padding-right: 13px;
+}
+.header-munyu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  font-size: 14px;
+}
+.header-title-part {
+  max-width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: left;
+  color: #ffffff;
+  padding-right: 45px;
+}
+.contacts-image {
+  display: none;
+}
+.afisha {
+  background-image: url(image/big_photo.png);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.afisha-part {
+  display: flex;
+  gap: 355px;
+}
+.btn {
+  padding: 15px 30px;
+  border: none;
+  background-color: #e81212;
+  color: #ffffff;
+  transition: 0.5s;
+  max-width: 184px;
+  max-height: 44px;
+  margin-top: 50px;
+}
+.btn:hover {
+  cursor: pointer;
+  color: black;
+}
+.afisha-title {
+  padding-top: 120px;
+  max-width: 550px;
+  height: 114px;
+  font-family: "Rubik", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56.88px;
+  text-align: left;
+  color: #fccd05;
+}
+.afisha-text {
+  padding-top: 144px;
+  width: 550px;
+  height: 24px;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.7px;
+  text-align: left;
+  color: white;
+}
+.slider {
+  padding-top: 440px;
+}
+.afisha-photo {
+  display: none;
+}
+.cards-part {
+  display: flex;
+  gap: 44px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.cards-part-second {
+  display: flex;
+  gap: 44px;
+}
+.category-image {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 0 30px;
+  }
+  .header-part {
+    flex-direction: column;
+  }
+  .header-img-first {
+    width: 100%;
+    max-width: none;
+    padding-bottom: 30px;
+  }
+  .header-img-second {
+    width: none;
+    max-width: 100%;
+  }
+  .header-img-third {
+    width: none;
+    max-width: 100%;
+  }
+  .header-img-four {
+    display: none;
+  }
+  .image-btn {
+    display: block;
+    width: none;
+    max-width: 100%;
+  }
+  .icon-mune {
+    display: none;
+  }
+  .image-top {
+    display: block;
+    width: 100%;
+    max-width: none;
+  }
+  .header-munyu {
+    flex-direction: column;
+    width: none;
+    max-width: 100%;
+  }
+  .header-menu {
+    background-color: white;
+    height: 48px;
+    flex-direction: column;
+  }
+  .header-title-part {
+    padding-top: 50px;
+    color: #443e3e;
+    width: 100%;
+    max-width: none;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 16.59px;
+    text-align: left;
+  }
+  .contacts-image {
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+  }
+  .afisha {
+    display: none;
+  }
+  .afisha-photo {
+    display: block;
+    width: 100%;
+  }
+  .cards-part {
+    display: none;
+  }
+  .cards-part-second {
+    display: none;
+  }
+}
